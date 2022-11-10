@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
   <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
   <style>
-
     *{
       font-family: 'Poppins', sans-serif;
     }
@@ -56,8 +55,7 @@
 </div>
 
 <script type="text/javascript">
-  $.get("/user", function(data) {
-    $("#user").html(data.name);
+  $.get("/user", function() {
     $(".unauthenticated").hide()
     $(".authenticated").show()
   });
