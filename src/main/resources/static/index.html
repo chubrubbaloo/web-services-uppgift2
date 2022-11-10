@@ -5,12 +5,44 @@
     <title>Super App 3000</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
   <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+  <style>
+
+    *{
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .unauthenticated,.authenticated{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    h2{
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    button {
+      border-radius: 8px;
+      margin-top: 20px;
+      background-color: black;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    img.avatar {
+      height: 25vh;
+      width: auto;
+      border-radius: 50%;
+    }
+  </style>
 </head>
 <body>
-
-<div class="container"></div>
 
 <div class="container unauthenticated">
   <h2>Välkommen till super app 3000</h2>
