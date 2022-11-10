@@ -14,7 +14,7 @@ Du kan enbart komma åt den endpointen ifall du är autentiserad.
 
 <h2>Vad som "saknas"/ vad man hade kunnat göra bättre</h2>
 För demo perspektiv och då det inte är specat i uppgiften så har jag inte gömt client-secret ifall något skulle krabba när du klonar ner projektet. 
-Annars hade jag i vanliga fall använt mig av en environment variabel för att gömma detta genom att använda mig av edit configurations och sätta en variabel istället för att ha det synligt.
+Annars hade jag i vanliga fall använt mig av en environment variabel för att gömma detta genom att använda mig av edit configurations och sätta client-secret i en variabel istället för att ha det synligt.
  
 
 
