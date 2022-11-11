@@ -8,7 +8,7 @@ Bygg ett Spring Boot projekt där du använder OAuth2 för att hantera autentise
 <h2>Hur man använder appen</h2>
 Boota upp applikationen och gå in på localhost:8080 för att komma åt hemsidan. Där kan du autentisera dig genom ditt github konto tack vare OAuth2.
 När du väl har autentiserat dig så kommer hemsidan se annorlunda ut och nu kan du komma åt en annan knapp som kommer länka dig till min endpoint "/user".
-Där du får tillbaka ditt namn som du satt i din Github profil i JSON-format från min RestController.
+Där kommer du att få tillbaka ditt namn som du satt i din Github profil i JSON-format från min RestController.
 Du kan enbart komma åt den endpointen ifall du är autentiserad.
 <hr>
 
